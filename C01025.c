@@ -5,7 +5,6 @@ int min_square_covering(int x1, int y1, int x2, int y2, int x3, int y3, int x4, 
     int max_x = fmax(x2, x4);
     int max_y = fmax(y2, y4);
 
-    
     int min_x = fmin(x1, x3);
     int min_y = fmin(y1, y3);
 
