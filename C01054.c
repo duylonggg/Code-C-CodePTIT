@@ -5,9 +5,9 @@
 
 int sumOfDiv[2000005];
 
-void sieve()
+int main()
 {
-	sumOfDiv[1] = 0;
+    sumOfDiv[1] = 0;
 	for (int i = 2; i <= 2e6; ++i)
 	{
 		if (!sumOfDiv[i])
@@ -17,11 +17,6 @@ void sieve()
 				sumOfDiv[j] = i;
 		}
 	}
-}
-
-int main()
-{
-	sieve();
 	int t;
 	scanf("%d", &t);
 	long long sum = 0;

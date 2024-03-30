@@ -31,12 +31,6 @@ int main(){
                 found = 1; 
                 break;
             }
-
-            // Ham memcpy(xau dich, bat dau, so ptu cpy):
-            // memcpy(s1, tmp, n); 
-            // memcpy(s2, tmp + n, n); 
-
-            // Copy chay:
             for(int i = 0; i < n; ++i)
                 s1[i] = tmp[i];
             for(int i = n, j = 0; i < (n << 1); ++i, ++j)  
