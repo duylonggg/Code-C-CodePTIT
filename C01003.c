@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #define ll long long
-
 int main(){
     int t;
     scanf("%d", &t);
