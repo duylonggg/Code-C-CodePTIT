@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 int check(int n, int k) {
 	int cnt = 0;
 	for (int i = 1; i <= n; ++i) {
