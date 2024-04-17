@@ -3,9 +3,9 @@ int check(int n, int k) {
 	int cnt = 0;
 	for (int i = 1; i <= n; ++i) {
 		int check = i;
-		while (check % 2 == 0) {
+		while (!(check % 2)) {
 			++cnt;
-			check /= 2;
+			check >>= 1;
 		}
 		if (cnt >= k) return 1;
 	}
