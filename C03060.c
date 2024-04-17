@@ -14,6 +14,6 @@ int check(int n, int k) {
 int main() {
 	int n, k;
 	scanf("%d%d", &n, &k);
-	printf("%s", check(n, k) ? "YES" : "NO");
+	printf("%s", check(n, k) ? "Yes" : "No");
     return 0;
 }
