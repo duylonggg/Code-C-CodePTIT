@@ -1,1 +1,0 @@
-{"name":"Local: C01026","url":"d:\\Ha Duy Long\\Lap Trinh Co Ban\\C\\Code PTIT\\C01026.Is_Prime.c","tests":[{"id":1708231561034,"input":"3\n\n123456\n\n997\n\n111111111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Ha Duy Long\\Lap Trinh Co Ban\\C\\Code PTIT\\C01026.Is_Prime.c","group":"local","local":true}
