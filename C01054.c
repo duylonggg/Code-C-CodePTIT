@@ -5,13 +5,10 @@
 
 int sumOfDiv[2000005];
 
-int main()
-{
+int main(){
     sumOfDiv[1] = 0;
-	for (int i = 2; i <= 2e6; ++i)
-	{
-		if (!sumOfDiv[i])
-		{
+	for (int i = 2; i <= 2e6; ++i){
+		if (!sumOfDiv[i]){
 			sumOfDiv[i] = i;
 			for (long long j = 1LL * i * i; j <= 2e6; j += i)
 				sumOfDiv[j] = i;
@@ -20,12 +17,10 @@ int main()
 	int t;
 	scanf("%d", &t);
 	long long sum = 0;
-	while (t--)
-	{
+	while (t--){
 		int n;
 		scanf("%d", &n);
-		while (n != 1)
-		{
+		while (n != 1){
 			sum += sumOfDiv[n];
 			n /= sumOfDiv[n];
 		}
